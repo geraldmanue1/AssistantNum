@@ -157,7 +157,7 @@ a:hover { /*lien menu  : un lien lorsque l'utilisateur le survole (glisse le sou
   font-family:Helvetica, serif;
   font-weight:100;
   --fill-layer-background-media-position: fixed; 
-  background-image:url("/images/collobaration.jpg");
+  background-image:url("../images/collobaration.jpg");
   background-repeat:no-repeat;
   background-position:right center;
   background-attachment:fixed;
@@ -199,7 +199,7 @@ width: 100%;
   width: 80%;
   max-width: 400px;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  background-image:url("/images/formation-partage-pratiques-experience.jpg");
+  background-image:url("../images/formation-partage-pratiques-experience.jpg");
   background-repeat:no-repeat;
   background-position:right center;
   /* background-attachment:fixed; */
@@ -239,7 +239,7 @@ width: 100%;
     width: 80%;
     max-width: 400px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    background-image:url("/images/confiance-ensemble.jpg");
+    background-image:url("../images/confiance-ensemble.jpg");
     background-repeat:no-repeat;
     background-position:right center;
     /* background-attachment:fixed; */
@@ -262,7 +262,7 @@ width: 100%;
     width: 80%;
     max-width: 400px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    background-image:url("/images/libre.jpg");
+    background-image:url("../images/libre.jpg");
     background-repeat:no-repeat;
     background-position:right center;
     /* background-attachment:fixed; */
@@ -284,7 +284,7 @@ width: 100%;
     width: 80%;
     max-width: 400px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    background-image:url("/images/top-team-mentor-character-flat-illustration-vector.jpg");
+    background-image:url("../images/top-team-mentor-character-flat-illustration-vector.jpg");
     background-repeat:no-repeat;
     background-position:right center;
     /* background-attachment:fixed; */
@@ -305,7 +305,7 @@ width: 100%;
     /* --fill-layer-background-media-position: fixed; */
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 
-    background-image:url("/images/ensemble.jpg");
+    background-image:url("../images/ensemble.jpg");
     background-repeat:no-repeat;
     background-position:right center;
    /* background-attachment:fixed; */
