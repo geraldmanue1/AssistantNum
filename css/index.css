@@ -8,7 +8,7 @@ body {
 }
 /* fin contenu html dedans : texte, image, vidéo, audio */
 
-.clearfix{
+.clearfix {
   clear:both; /* indique que l'élément est déplacé vers le bas afin de dégager les flottements à gauche et à droite */
 }
 
@@ -84,7 +84,7 @@ body {
 /* fin logo + menuTextGauche */
 
 /* menu text à droite : acueil, cv, pourquoi nous, contact */
-.menu{ 
+.menu { 
  
   float:left;
   width:100%;   
@@ -95,7 +95,7 @@ body {
 
 }
 
-.menu-item{ 
+.menu-item { 
   float:left;
   font-size:15px;
   color:#182153;
@@ -157,11 +157,11 @@ a:hover { /*lien menu  : un lien lorsque l'utilisateur le survole (glisse le sou
   font-family:Helvetica, serif;
   font-weight:100;
   --fill-layer-background-media-position: fixed; 
-  background-image:url("../images/collobaration.jpg");
+  background-image:url("../images/collobaration.jpg"), url("/images/collobaration.jpg");
   background-repeat:no-repeat;
   background-position:right center;
   background-attachment:fixed;
-  background-size:100%;
+  background-size:cover;
   max-width: 100%;
 
 }
@@ -199,7 +199,7 @@ width: 100%;
   width: 80%;
   max-width: 400px;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-  background-image:url("../images/formation-partage-pratiques-experience.jpg");
+  background-image:url("../images/formation-partage-pratiques-experience.jpg"), url("/images/formation-partage-pratiques-experience.jpg");
   background-repeat:no-repeat;
   background-position:right center;
   /* background-attachment:fixed; */
@@ -239,7 +239,7 @@ width: 100%;
     width: 80%;
     max-width: 400px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    background-image:url("../images/confiance-ensemble.jpg");
+    background-image:url("../images/confiance-ensemble.jpg"), url("/images/confiance-ensemble.jpg");
     background-repeat:no-repeat;
     background-position:right center;
     /* background-attachment:fixed; */
@@ -262,7 +262,7 @@ width: 100%;
     width: 80%;
     max-width: 400px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    background-image:url("../images/libre.jpg");
+    background-image:url("../images/libre.jpg"), url("/images/libre.jpg");
     background-repeat:no-repeat;
     background-position:right center;
     /* background-attachment:fixed; */
@@ -284,7 +284,7 @@ width: 100%;
     width: 80%;
     max-width: 400px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-    background-image:url("../images/top-team-mentor-character-flat-illustration-vector.jpg");
+    background-image:url("../images/top-team-mentor-character-flat-illustration-vector.jpg"), url("/images/top-team-mentor-character-flat-illustration-vector.jpg");
     background-repeat:no-repeat;
     background-position:right center;
     /* background-attachment:fixed; */
@@ -305,7 +305,7 @@ width: 100%;
     /* --fill-layer-background-media-position: fixed; */
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 
-    background-image:url("../images/ensemble.jpg");
+    background-image:url("../images/ensemble.jpg"), url("/images/ensemble.jpg");
     background-repeat:no-repeat;
     background-position:right center;
    /* background-attachment:fixed; */
