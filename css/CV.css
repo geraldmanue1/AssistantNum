@@ -1,0 +1,164 @@
+/*  */
+.photo-accueil-cv { 
+    padding-top:35px;
+   /* padding-bottom:100px; */
+   /* margin: 80px; */
+    margin-top: 130px;
+    height: 618px;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    --fill-layer-background-media-position: fixed; 
+    background-image:url("../images/reseaux-sociaux-2-1920x832.jpeg"), url("/images/reseaux-sociaux-2-1920x832.jpeg");
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-attachment:fixed;
+    background-size:cover;
+    width: 100%;
+    max-width: 100%;
+  }
+ /* .photo-accueil-profil-cv { 
+        padding-top:35px;
+        padding-bottom:100px;
+        margin: 80px;
+        height: 250px;
+        width: 25%;
+        color:#ffffff;
+        font-family:Helvetica, serif;
+        font-weight:100;
+        width: 80%;
+        max-width: 400px;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        background-image:url("../images/Photo-profil.png"), url("/images/Photo-profil.png");
+        background-repeat:no-repeat;
+        background-position:right center;
+        background-size:cover;
+        max-width: 100%;
+      }  */
+/* */
+    .containeur-profil-text-cv {
+        max-width: 100%;
+        color:#182154;
+        line-height:29px;
+
+
+    }
+
+
+
+
+/* fin */
+  /* deux block signifie SLAM et Numérique */
+   .flex-container-cv {
+    display: flex;
+    height: 538px;
+    margin:2%;
+   /* margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 350px; */
+    /*margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 35%; 
+    max-width: 100%;*/
+    width: 78%;
+    margin: 150px;
+    margin-top: 350px;
+    max-width: 100%; 
+
+    
+    /*background-color: DodgerBlue;*/
+    }
+    
+    .flex-container-cv > div {
+    background-color: #eeeeee;
+    margin: 0px;
+    padding: 15px;
+    padding-right: -450px;
+    font-size: 18px;
+    margin-top: -885px;
+
+    width: 100%;
+    height: 538px;
+    max-width: 100%;
+
+    }
+
+    /* fin deux block signifie SLAM et Numérique */
+
+    .flex-container-media-sociaux {
+   
+            display: flex;
+            height: 8px;
+            margin:2%;
+           /* margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 350px; */
+            /*margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 35%; 
+            max-width: 100%;*/
+            width: 78%;
+            margin: 150px;
+            margin-top: 350px;
+            max-width: 100%;   
+    }
+
+    .flex-container-media-sociaux > div {
+        background-color: #eeeeee;
+        margin: 0px;
+        padding: 15px;
+        padding-right: -450px;
+        font-size: 18px;
+        margin-top: -1250px;
+    
+        width: 100%;
+        height: 88px;
+        max-width: 100%;
+    
+        }
+    
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+     
+    
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+      }
+  
+      
+      .overlay {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        /*width: 315px;*/
+        width: 94%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        max-width: 100%;
+        
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+
+      #accueil-symbole-media-sociaux a:hover{
+        background-color:none;
+        box-shadow: none; 
+        border:none;
+        color:none;
+        background: none;
+      }
