@@ -113,9 +113,10 @@
        /* padding-right: -450px; */
         font-size: 18px;
         margin-top: -1250px;
+        padding-top: 50px;
     
         width: 100%;
-        height: 88px;
+        height: 150px;
         max-width: 100%;
         margin-left: 250px; /* largeur gauche icon reseaux sociaux */
         margin-right: 230px; /* largeur droite icon reseaux sociaux */
@@ -234,3 +235,5 @@
 
       }
       /* fin image réseaux sociaux */
+
+  
