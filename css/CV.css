@@ -238,16 +238,14 @@
 
       /* sur téléphone */
       @media screen and (max-width: 1000px) {
+        #photo-accueil-cv {
+          width: 100%;
+          max-width: 100%;
+        }
     #overlay {
-     margin-top: -60px;
-    }
-
-    #flex-container-media-sociaux {
-      position: relative;
-      max-width: 100%;
-      width: 100%;
-      margin-left: -300px;
-      left: 301px;
-
-    }
+     margin-top:-20px;
+     max-width: 100%;
+  
+    } 
+    
       }
