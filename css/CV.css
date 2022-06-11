@@ -255,6 +255,7 @@
     #containeur-photo-text-profil {
       margin-left: -20PX;
       margin-right: -0px;
+      max-width: 100%;
       
     }
 
