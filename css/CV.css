@@ -50,6 +50,10 @@
 
 
 /* fin */
+
+   .containeur-photo-text-profil {
+    margin:100px;
+  }
   /* deux block signifie image profil + texte */
    .flex-container-cv {
     display: flex;
@@ -247,5 +251,9 @@
      max-width: 100%;
   
     } 
+
+    #containeur-photo-text-profil {
+      margin-left: -90px;
+    }
     
       }
