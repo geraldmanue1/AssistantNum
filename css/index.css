@@ -62,7 +62,6 @@ body {
   /*background-color:#fff; */
   top : 10px;
   left : -44px;
-  
 }
 
 .menuTextGauche{ /* MANUEL Gérald */
@@ -314,3 +313,27 @@ width: 100%;
     max-height: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+  
+  #photo-accueil {
+  padding-top:35px;
+  padding-bottom:100px;
+  margin: 80px;
+  margin-top: 130px;
+  height: 618px;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  --fill-layer-background-media-position: fixed; 
+  background-image:url("../images/collobaration.jpg"), url("/images/collobaration.jpg");
+  background-repeat:no-repeat;
+  background-position:right center;
+  background-attachment:fixed;
+  background-size:1200px;
+  height: 1000px;
+  max-width: 100%;
+  }
+
+
+
+}
