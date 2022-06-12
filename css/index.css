@@ -314,7 +314,7 @@ width: 100%;
 }
  @media screen and (max-width: 1000px) {
   #container-width {
-    height: 120px;
+    height: 130px;
     max-width: 100%;
   }
 
