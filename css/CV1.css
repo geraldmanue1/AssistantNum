@@ -1,0 +1,98 @@
+@media screen and (max-width : 512px){
+    font-size : 5px;
+    li{
+      color : white;
+      background-color : black;
+    }
+  }
+  
+  /*personnalisation*/
+  h1{
+    font-family : "optima", sans-serif;
+  }
+  
+  h3{
+    font-family : "optima", sans-serif;
+  }
+  
+  p{
+    font-family : "arial-narrow", sans-serif;
+  }
+  
+  ul{
+    font-family : "arial-narrow", sans-serif;
+  }
+  
+  ol{
+    font-family : "arial-narrow", sans-serif;
+  }
+  
+  figcaption{
+    font-family : "arial-narrow", sans-serif;
+  }
+  
+  bleu{
+    color : #2E69FF;
+  }
+  
+  blanc{
+    color : white;
+  }
+  
+  rouge{
+    color : #FF1313;
+  }
+  
+  rose{
+    color : #FF75CF;
+  }
+  
+  /*flexbox principale */
+  .flexbox-main{
+    display : flex;
+    flex-direction : column;
+    background-color : #AAABFE;
+    width : 100%;
+    height : 100%;
+    border : solid;
+  }
+  
+  /*Photo + présentation*/
+  .cadre-presentation{
+    display : flex;
+    flex-direction : row;
+    background-color : #FA886C;
+    height : 40%;
+    border : solid;
+    margin-left : 20px;
+    margin-right : 20px;
+    margin-top : 20px;
+    margin-bottom : 10px
+  }
+  
+  .contenu-presentation{
+    display : flex;
+    flex-direction : column;
+    text-indent : 10px;
+    width : 80%;
+    margin-left : 20px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+  }
+  
+  .cadre-photo{
+    display : flex;
+    border : solid;
+    margin-left : 20px;
+    margin-top : 40px;
+    margin-bottom : 40px;
+    height : 205px;
+    width : 155px;
+  }
+  
+  .flex-container-media-sociau {
+    margin-top: 20px;
+    text-align: center;
+    float: center;
+    margin-left: -200px;
+  }
