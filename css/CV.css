@@ -283,6 +283,13 @@
       max-width: 100%;
       
     }
+        #accueil a:hover{
+  background-color:none;
+  box-shadow: none; 
+  border:none;
+  color:none;
+  background: none;
+}
       }
 
     
