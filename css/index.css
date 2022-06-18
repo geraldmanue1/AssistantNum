@@ -119,24 +119,33 @@ a:link { /* lien menu : un lien normal non visité */
   text-decoration: none;
   display: inline-block;
   box-shadow: 0px 0px 0px 5px rgba(white ,0.95);
+  text-decoration: none;
+
 }
 
 a:visited { /*lien menu : un lien que l'utilisateur a visité */
   background-color: #182153;
   padding: 10px;
   color: #182153;
+  text-decoration: none;
+
   
 }
 
 a:active {  /* lien menu  : un lien au moment où il est cliqué */
   background-color: rgb(237, 221, 221);
   border: 1px solid black;
+  text-decoration: none;
+
 }
 
 a:hover { /*lien menu  : un lien lorsque l'utilisateur le survole (glisse le souris dans le menu) */
   background-color:#ddd;
-  box-shadow: 0px 10px 5px 1px rgba(240, 231, 231, 0.823);  }
-/* fin lien menu */
+  box-shadow: 0px 10px 5px 1px rgba(240, 231, 231, 0.823);  
+  text-decoration: none;
+}
+
+  /* fin lien menu */
 #accueil a:hover{
   background-color:none;
   box-shadow: none; 
