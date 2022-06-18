@@ -8,24 +8,36 @@
     padding-top: 0px;
     padding-bottom: 0px;
   }
-
+  .containeur-c {
+    display: flex;    
+ 
+  }
+  
+  .containeur-c > div {
+    background-color: #f1f1f1;
+  }
 form {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
-  .prenom {
+ .prenom {
+    margin-left: 25px;
+    
+  } 
+
+  /* .prenom {
     position: relative;
     margin-left: 228px;
     bottom: 69px;
-  }
+    
+  } */
   .nom, .prenom, .text-email, .text-sujet, .text-message {
   font-size: 20px;
   }
 
   .text-email, .text-sujet, .text-message {
-    position: relative;
     bottom: 53px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -196,14 +208,19 @@ form {
     width: 190px;
     height: 190px;
     border-radius: 50%;
-    background: #2553b8;
+    background-color: #337ab7;
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 10px;
+    color: #fff;
  
   }
 
-
+iframe {
+  margin-left: -2px;
+  width: 100%;
+  max-width: 100%;
+}
  
   .flex-contact-icon {
     display: flex;
@@ -243,25 +260,64 @@ form {
     margin-left: 0px;
     padding: 20px;
     font-size: 30px;
+    width: 49.2%;
+    padding-left: 35px;
+    padding-right: 35px;
     
   }
 
- 
 
-  @media screen and (max-width: 1000px) {
+  .text-contact a:hover, .text-contact a:visited, .text-contact a:link, .text-contact a:active {
+    text-align: center;
+    text-decoration: underline;
+    background-color: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+   
+  }
+  a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
+
+  .text-contact a:hover {
+    color:cornflowerblue
+  }
+
+
+  @media screen and (max-width: 1100px) {
+
+    #container-width {
+      height: 130px;
+      max-width: 100%;
+    }
+  
+    #menu {
+      padding-left: 5px;
+      max-width: 100%;
+    }
+    
+    #container-width {
+      height: 130px;
+      max-width: 100%;
+    }
+  
+    #menu {
+      padding-left: 5px;
+      max-width: 100%;
+    }
 
         #nom {
             padding-right: 228px;
             
-            
         }
         #nom label {
-         padding-right: 165px;
+         padding-right: 160px;
           
         }
 
         #prenom label {
-            padding-right: 140px;
+            padding-right: 138px;
              
            }
 
@@ -277,8 +333,11 @@ form {
             padding-right: 358px;  
            }
 
+      
 
-
+           input[id="emails"], input[id="sujet"], textarea[id="subject"], button[id="submit"]{
+            width: 450px;
+          }
     
          #flex-contact-map {
         
@@ -296,25 +355,83 @@ form {
             flex-direction: column;
             justify-content: center;
             padding-top: 30px;
+            width: 100%;
            
           }
 
           #flex-contact-icon {
             flex-direction: column;
+            text-align: center;
+
          
           }
 
           #flex-contact-icon > div {
             flex-direction: column;
+            text-align: center;
+
           }
          #icon-contact {
             flex-direction: column;
             text-align: left;
+            text-align: center;
+            color: #fff;
+            background-color: #337ab7;
+
           }
           #containeur-icon-tel {
             padding-top: 0px;
             margin-top: 0px;
             margin-bottom: 0px;
             margin-top: 10px;
+            text-align: center;
+
           }
+
+          #text-contact {
+            text-align: center;
+
+          }
+
+          a:hover, a:visited, a:link, a:active {
+            text-decoration: none;
+          }
+
+          #text-contact a:hover, #text-contact a:visited, #text-contact a:link, #text-contact a:active {
+            text-align: center;
+            text-decoration: underline;
+            background-color: none;
+            background: none;
+            border: none;
+            box-shadow: none;
+           
+          }
+
+          #text-contact a:hover {
+            color:cornflowerblue
+          }
+
+          #containeur-c {
+            display: flex;  
+            background-color: #060707;
+            padding-left: 102px;  
+         
+          }
+          
+          #containeur-c > div {
+            background-color: none;
+            padding-right: 0px;
+      
+            
+          }
+          iframe {
+            width: 100%;
+            text-align: center;   
+            padding-right: 0%; 
+            padding-left: 0%;  
+            margin-left: 0%;
+  
+            max-width: 100%;
+          }
+        
   }
