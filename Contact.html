@@ -49,16 +49,17 @@
 <div class="container" id="container">
   <div>
           <form action="/action_page.php">
+            <div class="containeur-c" id="containeur-c">
             <div class="nom" id="nom">
-            <label for="lname">Nom </label><br>
+            <label for="lname" style="padding-left: 5px;">Nom </label><br>
             <input type="text" id="lname" name="lname" value="" placeholder="Votre Nom" required><br>
             </div>
             
             <div class="prenom" id="prenom">
-            <label for="fname">Prénom </label><br>
+            <label for="fname" style="padding-left: 5px;">Prénom </label><br>
             <input type="text" id="fname" name="fname" value="" placeholder="Votre Prénom" required><br>
             </div>
-
+          </div>
             <div class="text-email" id="text-email">
             <label for="emails">Email </label><br>
             <input type="email" id="emails" name="emails" placeholder="Votre Email" multiple required><br>
@@ -84,10 +85,11 @@
           </form>
         </div></div>
       
-        <div>
-          <span>Google Map : <br><b style="color: transparent;">.................................................................</b></span>
+        <div style="text-align: center;">
+          <span style="text-align: center;">Google Map  <br><b style="color: transparent;">.............................................................</b></span>
+          <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.611389483151!2d55.652506425982935!3d-20.956403822458206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217887ec0d58c68b%3A0xea7f7ed67c815b11!2s81%20Chem.%20Lagourgue%2C%20Saint-Andr%C3%A9%2097440!5e0!3m2!1sfr!2sfr!4v1655546084400!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<div id="map" style="width:100%;height:400px;"></div>
+<!-- <div id="map" style="width:100%;height:400px;"></div>
 
 <script>
    function myMap()
@@ -119,12 +121,11 @@
 
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap" defer></script>
+
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
-
 </div>
 </div>
  
@@ -164,7 +165,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
               </center>
             </div>
             </div> -->
-            <div id="containeur-icon-tel" style="background-color: #f1f1f1; margin-left:120px; margin-right: 140px; margin-bottom:80px;">
+            <div id="containeur-icon-tel" style="background-color: #f1f1f1; margin-left:120px; margin-right: 140px; margin-bottom:80px; max-width: 100%;">
             <center>
             <div class="flex-contact-icon" id="flex-contact-icon">
               
@@ -172,20 +173,20 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
               <span class="icon-contact" id="icon-contact">
                 <span class="fa fa-map-marker"></span>
                 </span><br><br>
-                <div class="text-contact">Address : <span>81 chemin de Lagourgue, Saint André (97440)</span></div>
+                <div class="text-contact" id="text-contact" style="margin-top:30px">Address : <span>81 chemin de Lagourgue, Saint André (97440)</span></div>
               </div>
         
             <div>
               <span class="icon-contact" id="icon-contact">
                 <span class="fa fa-phone"></span>
                 </span><br><br>
-                <div class="text-contact">Phone : <span><a href="tel:+262693638919">0693 63 89 19</a></span></div>
+                <div class="text-contact" id="text-contact">Phone : <span><a href="tel:+262693638919">0693 63 89 19</a></span></div>
             </div>
             <div>
               <span class="icon-contact" id="icon-contact">
                 <div class="fa fa-paper-plane"></div>
                 </span><br><br>
-                <div class="text-contact">Email : <span><a href="mailto:info@yoursite.com">gerald.manuel.pro@gmail.com</a></span></div>
+                <div class="text-contact" id="text-contact">Email : <span><a href="mailto:info@yoursite.com">gerald.manuel.pro@gmail.com</a></span></div>
             </div>
           </div>
         </center>
