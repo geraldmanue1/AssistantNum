@@ -263,15 +263,15 @@
 
       /* sur téléphone */
       @media screen and (max-width: 1000px) {
-            #container-width {
-    height: 130px;
-    max-width: 100%;
-  }
-
-  #menu {
-    padding-left: 5px;
-    max-width: 100%;
-  }
+        #container-width {
+          height: 130px;
+          max-width: 100%;
+        }
+      
+        #menu {
+          padding-left: 5px;
+          max-width: 100%;
+        }
         #photo-accueil-cv {
           width: 100%;
           max-width: 100%;
