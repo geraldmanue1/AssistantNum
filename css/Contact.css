@@ -413,13 +413,13 @@ iframe {
 
           #containeur-c {
             display: flex;  
-            background-color: #060707;
+            /* background-color: #060707; */
             padding-left: 102px;  
          
           }
           
           #containeur-c > div {
-            /* background-color: none; */
+            background-color: none; 
             padding-right: 0px;
       
             
