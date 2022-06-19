@@ -52,7 +52,7 @@ input {
 
 /* aggrandir marge email, sujet, message placeholder */
 input[id="Prenom"], input[id="Nom"], input[id="email"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
-  width: 435px;
+  width: 450px;
 }
 /* fin aggrandir marge email, sujet, message placeholder */
 
