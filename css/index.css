@@ -331,7 +331,11 @@ width: 100%;
   #menu {
     padding-left: 5px;
     max-width: 100%;
-  }
+   }
+   #menu-item {
+       width:200px;
+
+   }
  
 }
   
