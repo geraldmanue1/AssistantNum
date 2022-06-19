@@ -32,14 +32,14 @@
       
         <nav class="menu" id="menu">
           
-            <div class="menu-item" id="igol"><a href="index.html">Accueil</a>
-            </div>
-            <div class="menu-item" id="ie09"><a href="CV.html">Curriculum vitae (CV)</a>
-            </div>
-            <div class="menu-item" id="ixerc"><a href="Info.html">Pourquoi Nous ?</a>
-            </div>
-            <div class="menu-item" id="ixerc"><a href="Contact.html">Contact</a>
-            </div>
+          <div class="menu-item" id="menu-item"><a href="index.html">Accueil</a>
+          </div>
+          <div class="menu-item" id="menu-item"><a href="CV3.html">Curriculum vitae (CV)</a>
+          </div>
+          <div class="menu-item" id="menu-item"><a href="Info.html">Pourquoi Nous ?</a>
+          </div>
+          <div class="menu-item" id="menu-item"><a href="Contact.html">Contact</a>
+          </div>
           </nav>
      
           </div>
@@ -48,10 +48,55 @@
 
 <div class="container" id="container">
   <div>
-         <!--<form  action="/app.js"  id="app"> -->
-          <form id="app"></form>
-            <div class="containeur-c" id="containeur-c">
-            <div class="nom" id="nom">
+   <!-- <form action="/action_page.php"  id="contactForm">-->
+    <div class="alert"></div>
+
+    <form methode="POST" class="contact-form" id="contactForm">
+      
+      <div class="nom" id="nom">
+      <label for="Nom">Nom <span style="color:rgb(135, 2, 2)">*</span></label>
+      <br />
+      <input id="Nom" type="text" name="Nom"  placeholder="Nom" required>
+      <br />
+      </div>
+
+      <div class="prenom" id="prenom">
+      <label for="Prenom">Prenom <span style="color:rgb(135, 2, 2)">*</span> </label>
+      <br />
+      <input id="Prenom" type="text" name="Prenom" placeholder="Prénom" required>
+      <br />
+      </div>
+
+      <div class="text-email" id="text-email">
+      <label  for="email">Email <span style="color:rgb(135, 2, 2)">*</span></label>
+      <br />
+      <input id="email" type="text" name="email" placeholder="exemple@email.com" required>
+      <br />
+      </div>
+
+      <div class="text-sujet" id="text-sujet">
+      <label for="sujet">Sujet</label>
+      <br />
+      <input id="sujet" type="text" name="sujet" placeholder="Tape votre sujet">
+      <br />
+      </div>
+
+      <div class="text-message" id="text-message">
+      <label for="message">Message</label>
+      <br />
+      <textarea id="message" name="message" placeholder="Ecrire votre formulaire ici ..." style="height:200px;"></textarea>
+      <br />
+      </div>
+      
+    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" style="transition: all 0.4s ease 0s;">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">Envoyer</span>
+              </div> 
+  </form>
+
+          <!-- <form method="POST" id="contactForm"> -->
+           <!-- <div class="containeur-c" id="containeur-c">  -->
+         <!--   <div class="nom" id="nom">
             <label for="lname" style="padding-left: 5px;">Nom </label><br>
             <input type="text" id="lname" name="lname" value="" placeholder="Votre Nom" required><br>
             </div>
@@ -59,9 +104,9 @@
             <div class="prenom" id="prenom">
             <label for="fname" style="padding-left: 5px;">Prénom </label><br>
             <input type="text" id="fname" name="fname" value="" placeholder="Votre Prénom" required><br>
-            </div>
-          </div>
-            <div class="text-email" id="text-email">
+            </div> -->
+         <!-- </div> -->
+         <!--  <div class="text-email" id="text-email">
             <label for="emails">Email </label><br>
             <input type="email" id="emails" name="emails" placeholder="Votre Email" multiple required><br>
             </div>
@@ -74,16 +119,16 @@
             <div class="text-message" id="text-message">
             <label for="subject">Message</label><br>
             <textarea id="subject" name="subject" placeholder="Votre message..." style="height:200px;" required></textarea> <br>
-         
+            -->
               <!--  source codepen : https://codepen.io/bobbykorec/pen/qOGbyr  -->
-            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <!-- <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" style="transition: all 0.4s ease 0s;">
               <div class="alt-send-button">
                 <i class="fa fa-paper-plane"></i><span class="send-text">Envoyer</span>
-              </div>
+              </div> -->
             <!-- fin source codepen -->
-            </button>
+          <!--  </button>
           </div>
-          </form>
+          </form> -->
         </div></div>
       
         <div style="text-align: center;">
@@ -145,9 +190,9 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 
                 <span class="images-total">
                   <span class="icon-contact">
-                  <span class="fa fa-phone"></span>
+                  <span class="fa fa-sujet"></span>
                   </span>
-                  <span class="text-contact">Phone :</span>
+                  <span class="text-contact">sujet :</span>
               </span>
 
                 <span class="images-total">
@@ -179,9 +224,9 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
         
             <div>
               <span class="icon-contact" id="icon-contact">
-                <span class="fa fa-phone"></span>
+                <span class="fa fa-sujet"></span>
                 </span><br><br>
-                <div class="text-contact" id="text-contact">Phone : <span><a href="tel:+262693638919">0693 63 89 19</a></span></div>
+                <div class="text-contact" id="text-contact">sujet : <span><a href="tel:+262693638919">0693 63 89 19</a></span></div>
             </div>
             <div>
               <span class="icon-contact" id="icon-contact">
@@ -192,6 +237,42 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
           </div>
         </center>
       </div>
-      <script src="gmail-api/app.js"></script>
+
+      <!--===============================================================================================-->
+      <script src="ContactForm/vendor/jquery/jquery-3.2.1.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="ContactForm/vendor/animsition/js/animsition.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="ContactForm/vendor/bootstrap/js/popper.js"></script>
+      <script src="ContactForm/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="ContactForm/vendor/select2/select2.min.js"></script>
+      <script>
+        $(".selection-2").select2({
+          minimumResultsForSearch: 20,
+          dropdownParent: $('#dropDownSelect1')
+        });
+      </script>
+      <!--===============================================================================================-->
+      <script src="ContactForm/vendor/daterangepicker/moment.min.js"></script>
+      <script src="ContactForm/vendor/daterangepicker/daterangepicker.js"></script>
+      <!--===============================================================================================-->
+      <script src="ContactForm/vendor/countdowntime/countdowntime.js"></script>
+      <!--===============================================================================================-->
+      <script src="js/main.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+      </script>
+
+      <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase.js"></script>
+      <script src="contact.js"></script>
+
 </body>
 </html>
