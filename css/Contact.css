@@ -52,7 +52,7 @@ input {
 
 /* aggrandir marge email, sujet, message placeholder */
 input[id="Prenom"], input[id="Nom"], input[id="email"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
-  width: 450px;
+  width: 550px;
 }
 /* fin aggrandir marge email, sujet, message placeholder */
 
@@ -349,7 +349,7 @@ a:hover, a:visited, a:link, a:active {
         } */
 
         input[id="Prenom"], input[id="Nom"], input[id="email"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
-          width: 450px;
+          width: 550px;
         } 
   
        #flex-contact-map {
