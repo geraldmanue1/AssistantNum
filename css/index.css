@@ -65,19 +65,20 @@ body {
 }
 
 .menuTextGauche{ /* MANUEL Gérald */
-  position: relative; /* Définit la façon dont un élément est positionné dans un document */
- /* bottom : 65px;  Le bord bas de l'élément est déplacé au-dessus */
-  /*background-color:#fff; */
-  border-radius:5px; /* Définir des coins arrondis pour la bordure d'un élément */
-  width:230px; /* Largeur MANUEL Gérald */
-  padding:10px; /* Espace supplémentaire à l'intérieur */
-  margin-left: 80px; /* Définit la marge horizental à gauche */
-  min-height:30px; /* Définir la hauteur minimale d'un élément */
-  text-align:center; /* Définit l'alignement horizental d'un tableau au centre */ 
-  line-height:15px; /* Indique la hauteur minimale des lignes au sein de l'élément */
-  top: -75px;
-  left: 30px;
-  color:#4d114f;  /* Couleur de texte se trouve MANUEL Gérald */
+  
+  
+    position: relative;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    width: 230px;
+    padding: 10px;
+    margin-left: 80px;
+    min-height: 30px;
+    text-align: center;
+    line-height: 15px;
+    top: -75px;
+    left: 250px;
+    color: #4d114f;
 
 }
 /* fin logo + menuTextGauche */
@@ -85,26 +86,28 @@ body {
 /* menu text à droite : acueil, cv, pourquoi nous, contact */
 .menu { 
  
-  float:left;
-  width:100%;   
-  margin-left:25%;
-  margin-top: 25px;
-  max-width: 100%;
+      float: left;
+    width: 100%;
+    margin-left: 40%;
+    outline-width: 200px;
+    margin-top: 25px;
+    max-width: 100%;
 
 
 }
 
 .menu-item { 
-  float:left;
-  font-size:15px;
-  color:#182153;
-  width:195px;
-  padding:10px;
-  min-height:50px;
-  text-align:center;
-  line-height:30px;
-  font-weight:400;
-  max-width: 100%;
+      float: left;
+    font-size: 15px;
+    color: #182153;
+    width: 195px;
+    padding: 10px;
+    min-height: 50px;
+    min-width: 12%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 100%;
   
 } 
 /* fin menu texte à droite : acueil, cv, pourquoi nous, contact */
