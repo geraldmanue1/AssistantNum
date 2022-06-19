@@ -334,12 +334,22 @@ width: 100%;
   #menu {
     padding-left: 5px;
     max-width: 100%;
+    margin-left: 25%
    }
    #menu-item {
        width:190px;
 
    }
- 
+   
+   #menuTextGauche {
+     position relative;
+     left: 0px;
+     
+   }
+ #image-ecran {
+   margin-left:0px
+   
+   }
 }
   
   /*#photo-accueil {
