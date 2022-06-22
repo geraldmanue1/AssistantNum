@@ -65,21 +65,18 @@ body {
 }
 
 .menuTextGauche{ /* MANUEL Gérald */
-  
-  
-    position: relative;
-    /* background-color: #fff; */
-    border-radius: 5px;
-    width: 230px;
-    padding: 10px;
-    margin-left: 80px;
-    min-height: 30px;
-    text-align: center;
-    line-height: 15px;
-    top: -75px;
-    left: 250px;
-    color: #4d114f;
-
+  position: relative;
+  /* background-color: #fff; */
+  border-radius: 5px;
+  width: 230px;
+  padding: 10px;
+  margin-left: 80px;
+  min-height: 30px;
+  text-align: center;
+  line-height: 15px;
+  top: -75px;
+  left: 250px;
+  color: #4d114f;
 }
 /* fin logo + menuTextGauche */
 
@@ -334,7 +331,9 @@ width: 100%;
   #menu {
     padding-left: 5px;
     max-width: 100%;
-    margin-left: 25%
+    margin-left: 20%;
+
+
    }
    #menu-item {
        width:190px;
@@ -342,15 +341,18 @@ width: 100%;
    }
    
    #menuTextGauche {
-     position relative;
-     left: 0px;
+     position: relative;
+     left: -250px; 
+   }
+  
      
-   }
  #image-ecran {
-   margin-left:0px
-   
+   margin-left: 0px;
+   magin: 50px;
+   position: relative;
+  right: 59%;
    }
-}
+  }
   
   /*#photo-accueil {
 
