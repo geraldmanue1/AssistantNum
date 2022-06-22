@@ -331,7 +331,7 @@ width: 100%;
   #menu {
     padding-left: 5px;
     max-width: 100%;
-    margin-left: 20%;
+    margin-left: 23.5%;
 
 
    }
@@ -342,7 +342,7 @@ width: 100%;
    
    #menuTextGauche {
      position: relative;
-     left: -250px; 
+     left: 0px;
    }
   
      
