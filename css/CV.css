@@ -261,6 +261,56 @@
     }
     /* fin deux block */
 
+ .experience {
+              text-align:center;
+              
+          }
+          .experience-point-1 {
+             position:relative;
+           
+              
+          }
+
+            .experience-point-2 {
+               position:relative;
+             
+          }
+
+          .education {
+            text-align:center;
+
+          }
+
+            .education-point-1 {
+                 position:relative;
+                 
+          }
+
+             .education-point-2 {
+               position:relative;
+            
+          }
+
+             .education-point-3 {
+                   position:relative;
+                  
+              
+          }
+            .education-point-4 {
+               position:relative;
+                   
+          }
+
+
+         .education-point-5 {
+               position:relative;
+             
+         }
+  .education-point-6 {
+               position:relative;
+            
+         }
+
       /* sur téléphone */
       @media screen and (max-width: 1000px) {
         #container-width {
