@@ -303,7 +303,10 @@
                    
           }
 
-
+    #education-point-4-1 {
+               position:relative;
+                     bottom:33px;
+          }
          .education-point-5 {
               position:relative;
               bottom:32px;
