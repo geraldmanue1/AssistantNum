@@ -363,22 +363,22 @@
       max-width: 100%;
       
     }
-        .experience {
+        #experience {
               text-align:center;
               
           }
-          .experience-point-1 {
+          #experience-point-1 {
              position:relative;
              bottom:3px;
               
           }
 
-           .education-point-2 {
+           #education-point-2 {
               position:relative;
               bottom:30px;
 }
 
-          .education {
+          #education {
             text-align:center;
 
           }
@@ -394,40 +394,35 @@
               top:30px;
           }
 
-             .education-point-3 {
+             #education-point-3 {
                    position:relative;
                  top:32px;     
           }
 
            
-            .education-point-4 {
+            #education-point-4 {
                position:relative;
                 top:50px;
                    
           }
 
-    .education-point-4-1 {
+    #education-point-4-1 {
                position:relative;
                      top:108px;
           }
-         .education-point-5 {
+         #education-point-5 {
               position:relative;
               top:55px;
              
          }
 
-.education-point-5-1 {
+#education-point-5-1 {
               position:relative;
               top:55px;
              
          }
 
-  .education-point-6 {
-               position:relative;
-      top:20px;
-            
-         }
-
+ 
 
    #education-point-6 {
                position:relative;
