@@ -289,13 +289,13 @@
 
              .education-point-2 {
                position:relative;
-               top:31px;
+               top:2px;
             
           }
 
              .education-point-3 {
                    position:relative;
-                 top:60px;     
+                 top:32px;     
           }
 
            
@@ -333,6 +333,7 @@
       top:20px;
             
          }
+
 
 
       /* sur téléphone */
@@ -388,10 +389,9 @@
                  
           }
 
-             .education-point-2 {
+            #education-point-2 {
                position:relative;
-               top:31px;
-            
+              top:30px;
           }
 
              .education-point-3 {
@@ -429,9 +429,10 @@
          }
 
 
-  .education-point-6-1 {
+   #education-point-6 {
                position:relative;
-      top:-8px;
+              top:-10px;
+         }
             
          }
       }
