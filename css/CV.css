@@ -341,8 +341,7 @@
       max-width: 100%;
       
     }
-          
-            #experience {
+          #experience {
               text-align:center;
               
           }
@@ -354,7 +353,7 @@
 
             #experience-point-2 {
                position:relative;
-              bottom:51px;
+              bottom:73px;
           }
 
           #education {
@@ -374,12 +373,12 @@
 
              #education-point-3 {
                    position:relative;
-                    bottom:-1px;
+                    bottom:-31px;
               
           }
             #education-point-4 {
                position:relative;
-                     top:120px;
+                     top:138px;
           }
 
 
@@ -391,6 +390,7 @@
                position:relative;
               bottom:31px;
          }
+      }
       }
 
     
