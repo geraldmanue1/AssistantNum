@@ -344,7 +344,7 @@
       max-width: 100%;
       
     }
-          #experience {
+           #experience {
               text-align:center;
               
           }
@@ -356,7 +356,7 @@
 
             #experience-point-2 {
                position:relative;
-              bottom:73px;
+              bottom:50px;
           }
 
           #education {
@@ -366,7 +366,7 @@
 
             #education-point-1 {
                  position:relative;
-                 bottom:65px;
+                 top:108px;
           }
 
              #education-point-2 {
@@ -381,24 +381,24 @@
           }
             #education-point-4 {
                position:relative;
-                     top:138px;
+                     top:2px;
           }
             
           #education-point-4-1 { 
               position:relative;
-                     bottom:32px;
+                     top:5px;
           
           }
 
          #education-point-5 {
                position:relative;
-              bottom:31px;
+              bottom:1px;
          }
   #education-point-6 {
                position:relative;
-              bottom:31px;
+              bottom:28px;
          }
       }
-      }
+      
 
     
