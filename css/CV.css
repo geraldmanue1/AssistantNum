@@ -334,7 +334,132 @@
             
          }
 
+/* competence */
 
+    .flex-container-competences-titre {
+      display: flex;
+      /* background-color: DodgerBlue; */
+      text-align:center; 
+    }
+    
+    .flex-container-competences-titre > div {
+      background-color: #f1f1f1;
+      margin: 50px;
+      margin-left: 0px;
+      margin-right: 0px;
+      height:450px;
+      font-size: 18px;
+      width: 100%;
+      text-align:center; 
+      
+      
+    }
+
+    .photo-cv-competences-titre { 
+      text-align:center; 
+      padding-top:35px;
+     /* padding-bottom:100px; */
+     /* margin: 80px; */
+      height: 100px;
+      color:#ffffff;
+      font-family:Helvetica, serif;
+      font-weight:100;
+      /* --fill-layer-background-media-position: fixed; */
+      /* background-image:url("../images/reseaux-sociaux-2-1920x832.jpeg"), url("/images/reseaux-sociaux-2-1920x832.jpeg"); */
+      background-color: #182153;
+      background-repeat:no-repeat;
+      background-position:right center;
+     /* background-attachment:fixed; */
+      background-size:cover;
+      /* width: 1500px; */
+      width: 100%;
+      max-width: 100%;
+    }
+    .flex-container-competences {
+      display: flex;
+      /* background-color: DodgerBlue; */
+    }
+    
+    .flex-container-competences > div {
+      background-color: #f1f1f1;
+      margin: 50px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      height:450px;
+      font-size: 18px;
+      width: 100%;
+    }
+
+    .photo-cv-competences { 
+      padding-top:35px;
+     /* padding-bottom:100px; */
+     /* margin: 80px; */
+      height: 618px;
+      color:#ffffff;
+      font-family:Helvetica, serif;
+      font-weight:100;
+      /* --fill-layer-background-media-position: fixed; */
+      background-image:url("../images/Comment-diffuser-vos-contenus-de-blog-sur-vos-réseaux-sociaux.jpg"), url("/images/Comment-diffuser-vos-contenus-de-blog-sur-vos-réseaux-sociaux.jpg");
+      background-repeat:no-repeat;
+      background-position:right center;
+     /* background-attachment:fixed; */
+      background-size:cover;
+      /* width: 1500px; */
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .flex-container-competence-1 {
+      display: flex;
+      margin-right: 90px;
+      padding-left: 90px;
+      
+      margin-left: 90px;
+
+
+      
+      /*background-color: DodgerBlue;*/
+    }
+    
+    .flex-container-competence-1 > div {
+      background-color: rgba(29, 31, 40, 0.5);
+      color:rgb(255, 255, 255, 1);
+      margin: 8px;
+      margin-right: 90px;
+      padding-left: 90px;
+      padding: 13px;
+      font-size: 11px;
+      width: 100%;
+      font-size: 12px;
+      font-weight:700;
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  
+    }
+
+   /* .flex-container-competence-image-1 {
+      padding-top:35px;
+      padding-bottom:100px;
+      margin: 80px;
+      height: 250px;
+      width: 25%;
+      color:#ffffff;
+      font-family:Helvetica, serif;
+      font-weight:100;
+     
+      width: 80%;
+      max-width: 400px;
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+      background-image:url("../images/formation-partage-pratiques-experience.jpg"), url("/images/formation-partage-pratiques-experience.jpg");
+      background-repeat:no-repeat;
+      background-position:right center;
+    
+      background-size:cover;
+      max-width: 100%;
+    
+    }*/
+
+    /* fin competence *
 
       /* sur téléphone */
       @media screen and (max-width: 1000px) {
