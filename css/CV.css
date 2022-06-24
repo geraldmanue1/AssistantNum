@@ -261,7 +261,7 @@
     }
     /* fin deux block */
 
- .experience {
+.experience {
               text-align:center;
               
           }
@@ -283,6 +283,7 @@
 
             .education-point-1 {
                  position:relative;
+                top:105px;
                  
           }
 
@@ -294,6 +295,7 @@
 
              .education-point-3 {
                    position:relative;
+                 top:60px;
                   
               
           }
@@ -303,19 +305,35 @@
                    
           }
 
-    #education-point-4-1 {
+    .education-point-4-1 {
                position:relative;
-                     bottom:33px;
+                     top:108px;
           }
          .education-point-5 {
               position:relative;
-              bottom:32px;
+              top:55px;
              
          }
+
+.education-point-5-1 {
+              position:relative;
+              top:55px;
+             
+         }
+
   .education-point-6 {
                position:relative;
+      top:20px;
             
          }
+
+
+  .education-point-6-1 {
+               position:relative;
+      top:20px;
+            
+         }
+
 
       /* sur téléphone */
       @media screen and (max-width: 1000px) {
