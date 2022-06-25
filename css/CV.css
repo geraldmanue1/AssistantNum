@@ -356,24 +356,27 @@
     }
 
     .photo-cv-competences-titre { 
-      text-align:center; 
-      padding-top:35px;
-     /* padding-bottom:100px; */
-     /* margin: 80px; */
-      height: 100px;
-      color:#ffffff;
-      font-family:Helvetica, serif;
-      font-weight:100;
-      /* --fill-layer-background-media-position: fixed; */
-      /* background-image:url("../images/reseaux-sociaux-2-1920x832.jpeg"), url("/images/reseaux-sociaux-2-1920x832.jpeg"); */
-      background-color: #182153;
-      background-repeat:no-repeat;
-      background-position:right center;
-     /* background-attachment:fixed; */
-      background-size:cover;
-      /* width: 1500px; */
-      width: 100%;
-      max-width: 100%;
+       text-align: center;
+       padding-top: 35px;
+       /* padding-bottom: 100px; */
+       /* margin: 80px; */
+       margin-left: 50px;
+       margin-right: 50px;
+       height: 100px;
+       color: #ffffff;
+       font-family: Helvetica, serif;
+       font-weight: 100;
+       /* --fill-layer-background-media-position: fixed; */
+       /* background-image: url(../images/reseaux-sociaux-2-1920x832.jpeg), url(/images/reseaux-sociaux-2-1920x832.jpeg); */
+       background-color: #182153;
+       background-repeat: no-repeat;
+       background-position: right center;
+       /* background-attachment: fixed; */
+       background-size: cover;
+       /* width: 1500px; */
+       /* width: 100%; */
+       max-width: 100%;
+}
     }
     .flex-container-competences {
       display: flex;
@@ -381,16 +384,16 @@
     }
     
     .flex-container-competences > div {
-      background-color: #f1f1f1;
-      margin: 50px;
-      margin-left: 0px;
-      margin-right: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      height:400px;
-      font-size: 18px;
-      border-top: 2px solid #546eff;
-      width: 100%;
+         background-color: #f1f1f1;
+         margin: 50px;
+        /* margin-left: 0px; */
+        /* margin-right: 0px; */
+        margin-top: 0px;
+        margin-bottom: 20px;
+        height: 485px;
+        font-size: 18px;
+        border-top: 2px solid #546eff;
+        width: 100%;
     }
 
     .photo-cv-competences { 
@@ -564,16 +567,16 @@
     }
     
     #flex-container-competences > div {
-      background-color: #f1f1f1;
-      margin: 50px;
-      margin-left: 0px;
-      margin-right: 0px;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      height:450px;
-      font-size: 18px;
-      border-top: 2px solid #546eff;
-      width: 100%;
+       background-color: #f1f1f1;
+       margin: 50px;
+       /* margin-left: 0px; */
+       /* margin-right: 0px; */
+       margin-top: 0px;
+       margin-bottom: 20px;
+       height: 485px;
+       font-size: 18px;
+       border-top: 2px solid #546eff;
+       width: 100%;
     }   
        }
             
