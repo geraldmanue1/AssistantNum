@@ -289,13 +289,13 @@
 
              .education-point-2 {
                position:relative;
-               top:2px;
+               top:10px;
             
           }
 
              .education-point-3 {
                    position:relative;
-                 top:32px;     
+                 top:70px;     
           }
 
            
@@ -307,11 +307,11 @@
 
     .education-point-4-1 {
                position:relative;
-                     top:108px;
+                     top:110px;
           }
          .education-point-5 {
               position:relative;
-              top:55px;
+              top:25px;
              
          }
 
@@ -333,6 +333,7 @@
       top:20px;
             
          }
+
 
  /* competence */
 
