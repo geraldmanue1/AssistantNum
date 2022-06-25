@@ -334,7 +334,7 @@
             
          }
 
-/* competence */
+ /* competence */
 
     .flex-container-competences-titre {
       display: flex;
@@ -347,7 +347,6 @@
       margin: 50px;
       margin-left: 0px;
       margin-right: 0px;
-      margin-bottom: 0px;
       height:450px;
       font-size: 18px;
       width: 100%;
@@ -387,6 +386,7 @@
       margin-left: 0px;
       margin-right: 0px;
       margin-top: 0px;
+      margin-bottom: 0px;
       height:450px;
       font-size: 18px;
       width: 100%;
