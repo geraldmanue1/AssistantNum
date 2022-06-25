@@ -564,7 +564,7 @@
                position:relative;
               top:-10px;
          }
-                    #flex-container-competences {
+                   /* #flex-container-competences {*/
      /* display: flex; */
       /* background-color: DodgerBlue; */
  /*   }
@@ -585,9 +585,8 @@
           #titre-competence-blog-2 {
               font-size:20px;
           }
-       }
+       
             
-      
-      
+    }  
 
     
