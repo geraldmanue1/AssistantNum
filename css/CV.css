@@ -463,9 +463,7 @@
     
     }*/
 
-.titre-competence-blog-2 {
-    font-size:20px;
-}
+
 
     /* fin competence *
 
@@ -564,10 +562,10 @@
                position:relative;
               top:-10px;
          }
-                   /* #flex-container-competences {*/
-     /* display: flex; */
+                    #flex-container-competences {
+     display: flex; 
       /* background-color: DodgerBlue; */
- /*   }
+  }
     
     #flex-container-competences > div {
            background-color: #f1f1f1;
@@ -580,11 +578,9 @@
     font-size: 18px;
     border-top: 2px solid #546eff;
     width: 100%;
-    }   */
+    }   
           
-          #titre-competence-blog-2 {
-              font-size:20px;
-          }
+         
        
             
     }  
