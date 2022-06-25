@@ -111,17 +111,15 @@
     }
 
     .flex-container-media-sociaux > div {
-        background-color: #eeeeee;
-        margin: 0px;
-        padding: 15px;
-       /* padding-right: -450px; */
-        font-size: 18px;
-        margin-top: -380px;
-        padding-top: 50px;
-
-        width: 100%;
-        height: 150px;
-        max-width: 100%;
+       background-color: #eeeeee;
+    margin: 0px;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: -380px;
+    padding-top: 50px;
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
        /* margin-left: 250px; /* largeur gauche icon reseaux sociaux */
       /*  margin-right: 250px; /* largeur droite icon reseaux sociaux */
     
@@ -567,9 +565,9 @@
               top:-10px;
          }
                     #flex-container-competences {
-      display: flex;
+     /* display: flex; */
       /* background-color: DodgerBlue; */
-    }
+ /*   }
     
     #flex-container-competences > div {
            background-color: #f1f1f1;
@@ -582,7 +580,7 @@
     font-size: 18px;
     border-top: 2px solid #546eff;
     width: 100%;
-    }   
+    }   */
           
           #titre-competence-blog-2 {
               font-size:20px;
