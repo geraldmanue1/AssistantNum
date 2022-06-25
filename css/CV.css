@@ -387,7 +387,7 @@
       margin-right: 0px;
       margin-top: 0px;
       margin-bottom: 0px;
-      height:450px;
+      height:400px;
       font-size: 18px;
       width: 100%;
     }
@@ -557,7 +557,22 @@
                position:relative;
               top:-10px;
          }
-            
+                    #flex-container-competences {
+      display: flex;
+      /* background-color: DodgerBlue; */
+    }
+    
+    #flex-container-competences > div {
+      background-color: #f1f1f1;
+      margin: 50px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      height:450px;
+      font-size: 18px;
+      width: 100%;
+    }   
        }
             
       
