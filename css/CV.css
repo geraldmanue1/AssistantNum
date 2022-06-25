@@ -4,7 +4,6 @@
     padding-top:35px;
    /* padding-bottom:100px; */
    /* margin: 80px; */
-    margin-top: 130px;
     height: 618px;
     color:#ffffff;
     font-family:Helvetica, serif;
@@ -41,7 +40,7 @@
     .containeur-profil-text-cv {
         max-width: 100%;
         color:#182154;
-        line-height:29px;
+       line-height: 26px;
 
 
     }
@@ -112,18 +111,18 @@
     }
 
     .flex-container-media-sociaux > div {
-        background-color: #eeeeee;
-        margin: 0px;
-        padding: 15px;
-        /* padding-right: -450px; */
-        font-size: 18px;
-        margin-top: -380px;
-        padding-top: 50px;
-        width: 100%;
-        height: 150px;
-        max-width: 100%;
-        /* margin-left: 250px; /* largeur gauche icon reseaux sociaux */
-        /*  margin-right: 250px; /* largeur droite icon reseaux sociaux */
+       background-color: #eeeeee;
+    margin: 0px;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: -380px;
+    padding-top: 50px;
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+       /* margin-left: 250px; /* largeur gauche icon reseaux sociaux */
+      /*  margin-right: 250px; /* largeur droite icon reseaux sociaux */
+    
         }
     
     .container {
@@ -218,12 +217,15 @@
       }*/
 
       /* arriere image réseaux sociaux */
-      img:hover {
+    
+
+      .images-total img:hover {
         background-color: #0085AE;
         -webkit-box-shadow: 5px 5px 7px #333;
         -moz-box-shadow: 5px 5px 7px #333;
         box-shadow: 5px 5px 7px #333; 
       }
+     
 
       
       .images { 
@@ -257,8 +259,227 @@
     }
     /* fin deux block */
 
+.experience {
+              text-align:center;
+              
+          }
+          .experience-point-1 {
+             position:relative;
+             bottom:3px;
+              
+          }
+
+           .education-point-2 {
+              position:relative;
+              bottom:30px;
+}
+
+          .education {
+            text-align:center;
+
+          }
+
+            .education-point-1 {
+                 position:relative;
+                top:105px;
+                 
+          }
+
+             .education-point-2 {
+               position:relative;
+               top:10px;
+            
+          }
+
+             .education-point-3 {
+                   position:relative;
+                 top:70px;     
+          }
+
+           
+            .education-point-4 {
+               position:relative;
+                top:50px;
+                   
+          }
+
+    .education-point-4-1 {
+               position:relative;
+                     top:110px;
+          }
+         .education-point-5 {
+              position:relative;
+              top:25px;
+             
+         }
+
+.education-point-5-1 {
+              position:relative;
+              top:55px;
+             
+         }
+
+  .education-point-6 {
+               position:relative;
+      top:20px;
+            
+         }
+
+
+  .education-point-6-1 {
+               position:relative;
+      top:20px;
+            
+         }
+
+
+ /* competence */
+
+    .flex-container-competences-titre {
+      display: flex;
+      /* background-color: DodgerBlue; */
+      text-align:center; 
+    }
+    
+    .flex-container-competences-titre > div {
+      background-color: #f1f1f1;
+      margin: 50px;
+      margin-left: 0px;
+      margin-right: 0px;
+      height:400px;
+      font-size: 18px;
+      width: 100%;
+      text-align:center; 
+      
+      
+    }
+
+    .photo-cv-competences-titre { 
+       text-align: center;
+       padding-top: 35px;
+       /* padding-bottom: 100px; */
+       /* margin: 80px; */
+       margin-left: 50px;
+       margin-right: 50px;
+       height: 100px;
+       color: #ffffff;
+       font-family: Helvetica, serif;
+       font-weight: 100;
+       /* --fill-layer-background-media-position: fixed; */
+       /* background-image: url(../images/reseaux-sociaux-2-1920x832.jpeg), url(/images/reseaux-sociaux-2-1920x832.jpeg); */
+       background-color: #182153;
+       background-repeat: no-repeat;
+       background-position: right center;
+       /* background-attachment: fixed; */
+       background-size: cover;
+       /* width: 1500px; */
+       /* width: 100%; */
+       max-width: 100%;
+}
+    
+    .flex-container-competences {
+      display: flex;
+      /* background-color: DodgerBlue; */
+    }
+    
+    .flex-container-competences > div {
+           background-color: #f1f1f1;
+    /* margin: 50px; */
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height: 485px;
+    font-size: 18px;
+    border-top: 2px solid #546eff;
+    width: 100%;
+    }
+
+    .photo-cv-competences { 
+      padding-top:35px;
+     /* padding-bottom:100px; */
+     /* margin: 80px; */
+      height: 618px;
+      color:#ffffff;
+      font-family:Helvetica, serif;
+      font-weight:100;
+      /* --fill-layer-background-media-position: fixed; */
+      background-image:url("../images/Comment-diffuser-vos-contenus-de-blog-sur-vos-réseaux-sociaux.jpg"), url("/images/Comment-diffuser-vos-contenus-de-blog-sur-vos-réseaux-sociaux.jpg");
+      background-repeat:no-repeat;
+      background-position:right center;
+     /* background-attachment:fixed; */
+      background-size:cover;
+      /* width: 1500px; */
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .flex-container-competence-1 {
+      display: flex;
+      margin-right: 90px;
+      padding-left: 90px;
+      
+      margin-left: 90px;
+
+
+      
+      /*background-color: DodgerBlue;*/
+    }
+    
+    .flex-container-competence-1 > div {
+     background-color: rgba(29, 31, 40, 0.5);
+    color: rgb(255, 255, 255, 1);
+    margin: 8px;
+    margin-right: 90px;
+    padding-left: 90px;
+    padding: 19px;
+    font-size: 20px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  
+    }
+
+   /* .flex-container-competence-image-1 {
+      padding-top:35px;
+      padding-bottom:100px;
+      margin: 80px;
+      height: 250px;
+      width: 25%;
+      color:#ffffff;
+      font-family:Helvetica, serif;
+      font-weight:100;
+     
+      width: 80%;
+      max-width: 400px;
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+      background-image:url("../images/formation-partage-pratiques-experience.jpg"), url("/images/formation-partage-pratiques-experience.jpg");
+      background-repeat:no-repeat;
+      background-position:right center;
+    
+      background-size:cover;
+      max-width: 100%;
+    
+    }*/
+
+.titre-competence-blog-2 {
+    font-size:20px;
+}
+
+    /* fin competence *
+
       /* sur téléphone */
       @media screen and (max-width: 1000px) {
+        #container-width {
+          height: 130px;
+          max-width: 100%;
+        }
+      
+        #menu {
+          padding-left: 5px;
+          max-width: 100%;
+        }
         #photo-accueil-cv {
           width: 100%;
           max-width: 100%;
@@ -275,6 +496,98 @@
       max-width: 100%;
       
     }
-      }
+          #experience {
+              text-align:center;
+              
+          }
+          #experience-point-1 {
+             position:relative;
+             top:-65px;
+              
+          }
+          
+   #experience-point-2 {
+             position:relative;
+             top:-50px;
+              
+          }
+
+          
+
+          #education {
+            text-align:center;
+
+          }
+
+            #education-point-1 {
+                 position:relative;
+                top:105px;
+                 
+          }
+
+            #education-point-2 {
+               position:relative;
+              top:30px;
+          }
+
+             #education-point-3 {
+                   position:relative;
+                 top:29px;     
+          }
+
+           
+            #education-point-4 {
+               position:relative;
+                top:50px;
+                   
+          }
+
+    #education-point-4-1 {
+               position:relative;
+                     top:50px;
+          }
+         #education-point-5 {
+              position:relative;
+              top:23px;
+             
+         }
+
+#education-point-5-1 {
+              position:relative;
+              top:55px;
+             
+         }
+
+ 
+
+   #education-point-6 {
+               position:relative;
+              top:-10px;
+         }
+                    #flex-container-competences {
+     /* display: flex; */
+      /* background-color: DodgerBlue; */
+ /*   }
+    
+    #flex-container-competences > div {
+           background-color: #f1f1f1;
+    margin: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+       height: 558px;
+    font-size: 18px;
+    border-top: 2px solid #546eff;
+    width: 100%;
+    }   */
+          
+          #titre-competence-blog-2 {
+              font-size:20px;
+          }
+       }
+            
+      
+      
 
     
