@@ -42,26 +42,33 @@
 
 /* tooltip pour le containeur-1 de tooltip-container-1 + tooltiptext-container-1 */
 .tooltip-container-1 {
+
 display: inline-block;
 /* border-bottom: 1px dotted black; */
 }
 
 .tooltip-container-1 .tooltiptext-container-1 {
-visibility: hidden;
-width: 270px;
-background-color: black;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-padding: 5px 0;
-position: absolute;
-z-index: 1;
-top: 57%;
-left: 17%;
-margin-left: -60px;
+
+  visibility: hidden;
+  width: 270px;
+  background-color: rgb(143, 1, 1);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 1;
+  top: 5%;
+  left: 34%;
+  margin: -15%;
+  max-width:100%
+
+
 }
 
 .tooltip-container-1 .tooltiptext-container-1::after {
+
 content: "";
 position: absolute;
 bottom: 100%;
@@ -69,10 +76,12 @@ left: 50%;
 margin-left: -5px;
 border-width: 5px;
 border-style: solid;
-border-color: transparent transparent black transparent;
+border-color: transparent transparent rgb(143, 1, 1) transparent;
 }
 
 .tooltip-container-1:hover .tooltiptext-container-1 {
+  position: relative;
+
 visibility: visible;
 }
 /* fin tootip pour le containeur-1 de tooltip-containeur-1 + tooltiptext-container-1 */
@@ -86,18 +95,20 @@ visibility: visible;
   }
   
   .tooltip-container-2 .tooltiptext-container-2 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 107%;
-  left: 70%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 34%;
+    margin: -15%;
+    max-width:100%
   }
   
   .tooltip-container-2 .tooltiptext-container-2::after {
@@ -108,10 +119,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-2:hover .tooltiptext-container-2 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-2 de tooltip-containeur-2 + tooltiptext-container-2 */
@@ -125,18 +137,21 @@ visibility: visible;
   }
   
   .tooltip-container-3 .tooltiptext-container-3 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 158%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 34%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   .tooltip-container-3 .tooltiptext-container-3::after {
@@ -147,10 +162,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-3:hover .tooltiptext-container-3 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-2 de tooltip-containeur-2 + tooltiptext-container-2 */
@@ -165,18 +181,21 @@ display: inline-block;
 }
 
 .tooltip-container-4 .tooltiptext-container-4 {
-visibility: hidden;
-width: 270px;
-background-color: black;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-padding: 5px 0;
-position: absolute;
-z-index: 1;
-top: 209%;
-left: 70%;
-margin-left: -60px;
+  visibility: hidden;
+  width: 270px;
+  background-color: rgb(143, 1, 1);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 1;
+  top: 5%;
+  left: 32%;
+  margin: -10%;
+  max-width:100%
+
 }
 
 .tooltip-container-4 .tooltiptext-container-4::after {
@@ -187,10 +206,11 @@ left: 50%;
 margin-left: -5px;
 border-width: 5px;
 border-style: solid;
-border-color: transparent transparent black transparent;
+border-color: transparent transparent rgb(143, 1, 1) transparent;
 }
 
 .tooltip-container-4:hover .tooltiptext-container-4 {
+  position: relative;
 visibility: visible;
 }
 /* fin tootip pour le containeur-4 de tooltip-containeur-4 + tooltiptext-container-4 */
@@ -205,18 +225,21 @@ visibility: visible;
   }
   
   .tooltip-container-5 .tooltiptext-container-5 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 260%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 30%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   .tooltip-container-5 .tooltiptext-container-5::after {
@@ -227,10 +250,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-5:hover .tooltiptext-container-5 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-5 de tooltip-containeur-5 + tooltiptext-container-5 */
@@ -244,18 +268,22 @@ visibility: visible;
   }
   
   .tooltip-container-6 .tooltiptext-container-6 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 310%;
-  left: 70%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 43%;
+    margin: -11%;
+    max-width:100%
+
+
   }
   
   .tooltip-container-6 .tooltiptext-container-6::after {
@@ -266,10 +294,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
   }
   
   .tooltip-container-6:hover .tooltiptext-container-6 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-6 de tooltip-containeur-6 + tooltiptext-container-6 */
@@ -283,18 +312,21 @@ visibility: visible;
   }
   
   .tooltip-container-7 .tooltiptext-container-7 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 361%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 28%;
+    margin: -10%;
+    max-width:100%
+
   }
   
   .tooltip-container-7 .tooltiptext-container-7::after {
@@ -305,10 +337,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-7:hover .tooltiptext-container-7 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-7 de tooltip-containeur-7 + tooltiptext-container-7 */   
@@ -321,18 +354,21 @@ visibility: visible;
   }
   
   .tooltip-container-8 .tooltiptext-container-8 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 411%;
-  left: 70%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 35.5%;
+    margin: -11%;
+    max-width:100%
+
   }
   
   .tooltip-container-8 .tooltiptext-container-8::after {
@@ -343,10 +379,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
   }
   
   .tooltip-container-8:hover .tooltiptext-container-8 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-8 de tooltip-containeur-8 + tooltiptext-container-8 */
@@ -360,18 +397,21 @@ visibility: visible;
   }
   
   .tooltip-container-9 .tooltiptext-container-9 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 462%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 34%;
+    margin: -11%;
+    max-width:100%
+
   }
   
   .tooltip-container-9 .tooltiptext-container-9::after {
@@ -382,10 +422,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-9:hover .tooltiptext-container-9 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-9 de tooltip-containeur-9 + tooltiptext-container-9 */
@@ -398,18 +439,21 @@ visibility: visible;
   }
   
   .tooltip-container-10 .tooltiptext-container-10 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 513%;
-  left: 70%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 52%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   .tooltip-container-10 .tooltiptext-container-10::after {
@@ -420,10 +464,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-10:hover .tooltiptext-container-10 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-10 de tooltip-containeur-10 + tooltiptext-container-10 */
@@ -436,18 +481,21 @@ visibility: visible;
   }
   
   .tooltip-container-11 .tooltiptext-container-11 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 564%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 40%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   .tooltip-container-11 .tooltiptext-container-11::after {
@@ -458,10 +506,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-11:hover .tooltiptext-container-11 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-11 de tooltip-containeur-11 + tooltiptext-container-11 */
@@ -474,18 +523,21 @@ visibility: visible;
   }
   
   .tooltip-container-12 .tooltiptext-container-12 {
-  visibility: hidden;
-  width: 270px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 614%;
-  left: 70%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 40%;
+    margin: -11%;
+    max-width:100%
+
   }
   
   .tooltip-container-12 .tooltiptext-container-12::after {
@@ -496,10 +548,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   .tooltip-container-12:hover .tooltiptext-container-12 {
+    position: relative;
   visibility: visible;
   }
   /* fin tootip pour le containeur-12 de tooltip-containeur-12 + tooltiptext-container-12 */
@@ -514,18 +567,21 @@ display: inline-block;
 }
 
 #tooltip-container-1 #tooltiptext-container-1 {
-visibility: hidden;
-width: 250px;
-background-color: black;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-padding: 5px 0;
-position: absolute;
-z-index: 1;
-top: 17.5%;
-left: 17%;
-margin-left: -60px;
+  visibility: hidden;
+  width: 270px;
+  background-color: rgb(143, 1, 1);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 1;
+  top: 5%;
+  left: 20%;
+  margin: -15%;
+  max-width:100%
+
 }
 
 #tooltip-container-1 #tooltiptext-container-1::after {
@@ -536,10 +592,11 @@ left: 50%;
 margin-left: -5px;
 border-width: 5px;
 border-style: solid;
-border-color: transparent transparent black transparent;
+border-color: transparent transparent rgb(143, 1, 1) transparent;
 }
 
 #tooltip-container-1:hover #tooltiptext-container-1 {
+  position: relative;
 visibility: visible;
 }
 /* fin tooltip pour container-1 class tooltip-container-1 + tooltiptext-container-1 */
@@ -553,18 +610,21 @@ visibility: visible;
   }
   
   #tooltip-container-2 #tooltiptext-container-2 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 10%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-2 #tooltiptext-container-2::after {
@@ -575,10 +635,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-2:hover #tooltiptext-container-2 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-2 class tooltip-container-2 + tooltiptext-container-2 */
@@ -591,18 +652,21 @@ visibility: visible;
   }
   
   #tooltip-container-3 #tooltiptext-container-3 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 20%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-3 #tooltiptext-container-3::after {
@@ -613,10 +677,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-3:hover #tooltiptext-container-3 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-3 class tooltip-container-3 + tooltiptext-container-3 */
@@ -629,18 +694,21 @@ visibility: visible;
   }
   
   #tooltip-container-4 #tooltiptext-container-4 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 15%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-4 #tooltiptext-container-4::after {
@@ -651,10 +719,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-4:hover #tooltiptext-container-4 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-4 class tooltip-container-4 + tooltiptext-container-4 */
@@ -667,18 +736,21 @@ visibility: visible;
   }
   
   #tooltip-container-5 #tooltiptext-container-5 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 9%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-5 #tooltiptext-container-5::after {
@@ -689,10 +761,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-5:hover #tooltiptext-container-5 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-5 class tooltip-container-5 + tooltiptext-container-5 */
@@ -705,18 +778,21 @@ visibility: visible;
   }
   
   #tooltip-container-6 #tooltiptext-container-6 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 30%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-6 #tooltiptext-container-6::after {
@@ -727,10 +803,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-6:hover #tooltiptext-container-6 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-6 class tooltip-container-6 + tooltiptext-container-6 */
@@ -743,18 +820,21 @@ visibility: visible;
   }
   
   #tooltip-container-7 #tooltiptext-container-7 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 12%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-7 #tooltiptext-container-7::after {
@@ -765,10 +845,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-7:hover #tooltiptext-container-7 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-7 class tooltip-container-7 + tooltiptext-container-7 */
@@ -781,18 +862,21 @@ visibility: visible;
   }
   
   #tooltip-container-8 #tooltiptext-container-8 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 18%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-8 #tooltiptext-container-8::after {
@@ -803,10 +887,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-8:hover #tooltiptext-container-8 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-8 class tooltip-container-8 + tooltiptext-container-8 */
@@ -819,18 +904,21 @@ visibility: visible;
   }
   
   #tooltip-container-9 #tooltiptext-container-9 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 21%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-9 #tooltiptext-container-9::after {
@@ -841,10 +929,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-9:hover #tooltiptext-container-9 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-9 class tooltip-container-9 + tooltiptext-container-9 */
@@ -857,18 +946,21 @@ visibility: visible;
   }
   
   #tooltip-container-10 #tooltiptext-container-10 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 40%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-10 #tooltiptext-container-10::after {
@@ -879,10 +971,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-10:hover #tooltiptext-container-10 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-10 class tooltip-container-10 + tooltiptext-container-10 */
@@ -894,22 +987,25 @@ visibility: visible;
   /* border-bottom: 1px dotted black; */
   }
   
-  #tooltip-container-1 #tooltiptext-container-11 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+  #tooltip-container-11 #tooltiptext-container-11 {
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 25%;
+    margin: -15%;
+    max-width:100%
+
   }
   
-  #tooltip-container-1 #tooltiptext-container-11::after {
+  #tooltip-container-11 #tooltiptext-container-11::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -917,10 +1013,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
-  #tooltip-container-11:hover #tooltiptext-container-1 {
+  #tooltip-container-11:hover #tooltiptext-container-11 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-11 class tooltip-container-11 + tooltiptext-container-11 */
@@ -933,18 +1030,21 @@ visibility: visible;
   }
   
   #tooltip-container-12 #tooltiptext-container-12 {
-  visibility: hidden;
-  width: 250px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 17.5%;
-  left: 17%;
-  margin-left: -60px;
+    visibility: hidden;
+    width: 270px;
+    background-color: rgb(143, 1, 1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+    top: 5%;
+    left: 28%;
+    margin: -15%;
+    max-width:100%
+
   }
   
   #tooltip-container-12 #tooltiptext-container-12::after {
@@ -955,10 +1055,11 @@ visibility: visible;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+  border-color: transparent transparent rgb(143, 1, 1) transparent;
+}
   
   #tooltip-container-12:hover #tooltiptext-container-12 {
+    position: relative;
   visibility: visible;
   }
   /* fin tooltip pour container-12 class tooltip-container-12 + tooltiptext-container-12 */
