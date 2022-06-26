@@ -65,7 +65,7 @@ body {
 }
 
 .menuTextGauche{ /* MANUEL Gérald */
-  position: relative;
+  position: absolute;
   /* background-color: #fff; */
   border-radius: 5px;
   width: 230px;
@@ -74,7 +74,7 @@ body {
   min-height: 30px;
   text-align: center;
   line-height: 15px;
-  top: -75px;
+  /* top: -75px; */
   left: 250px;
   color: #4d114f;
 }
@@ -125,11 +125,9 @@ a:link { /* lien menu : un lien normal non visité */
 
 a:visited { /*lien menu : un lien que l'utilisateur a visité */
   background-color: #182153;
-  padding: 10px;
+  /* padding: 10px; */
   color: #182153;
   text-decoration: none;
-
-  
 }
 
 a:active {  /* lien menu  : un lien au moment où il est cliqué */
@@ -473,6 +471,7 @@ margin: 8px;
  #image-ecran {
    position: relative;
    right: 61%;
+   margin-right: 228px;
    }
   }
   
