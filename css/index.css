@@ -125,7 +125,7 @@ a:link { /* lien menu : un lien normal non visité */
 
 a:visited { /*lien menu : un lien que l'utilisateur a visité */
   background-color: #182153;
-  /* padding: 10px; */
+  padding: 10px;
   color: #182153;
   text-decoration: none;
 }
