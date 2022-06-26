@@ -473,6 +473,17 @@ margin: 8px;
    right: 61%;
    margin-right: 240px;
    }
+
+   #accueil a:hover{
+  background-color:none;
+  box-shadow: none; 
+  border:none;
+  color:none;
+  background: none;
+     tex-decoration:none;
+     padding:none;
+     
+}
   }
   
   /*#photo-accueil {
