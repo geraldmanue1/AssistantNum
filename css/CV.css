@@ -113,7 +113,7 @@
     .flex-container-media-sociaux > div {
        background-color: #eeeeee;
     margin: 0px;
-    padding: 15px;
+   /* padding: 15px; */
     font-size: 18px;
     margin-top: -380px;
     padding-top: 50px;
