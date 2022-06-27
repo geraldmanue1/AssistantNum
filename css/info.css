@@ -550,6 +550,11 @@ visibility: visible;
 
 
 @media screen and (max-width: 1000px) {
+  
+   #container-width {
+          height: 130px;
+          max-width: 100%;
+        }
 
 /* tooltip pour container-1 class tooltip-container-1 + tooltiptext-container-1 */
 /* #tooltip-container-1 {
