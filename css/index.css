@@ -445,7 +445,7 @@ margin: 8px;
 /* fin module */
  @media screen and (max-width: 1000px) {
   #container-width {
-    /* height: 130px; */
+     height: 130px; 
     max-width: 100%;
   }
 
