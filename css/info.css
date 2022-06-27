@@ -17,7 +17,6 @@
   font-size: 18px;
   width: 50%;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-
 }
 .flex-container-image-info-1 > span {
   background-color: #f1f1f1;
@@ -41,10 +40,9 @@
 
 
 /* tooltip pour le containeur-1 de tooltip-container-1 + tooltiptext-container-1 */
-.tooltip-container-1 {
+/*.tooltip-container-1 {
 
 display: inline-block;
-/* border-bottom: 1px dotted black; */
 }
 
 .tooltip-container-1 .tooltiptext-container-1 {
@@ -61,7 +59,11 @@ display: inline-block;
   z-index: 1;
   top: 5%;
   left: 34%;
-  margin: -15%;
+
+  margin-left: 0%;
+  margin-right: 20%;
+  margin-top: 50%;
+  margin-bottom:50%;
   max-width:100%
 
 
@@ -83,15 +85,14 @@ border-color: transparent transparent rgb(143, 1, 1) transparent;
   position: relative;
 
 visibility: visible;
-}
+} */
 /* fin tootip pour le containeur-1 de tooltip-containeur-1 + tooltiptext-container-1 */
 
 
 
 /* tooltip pour le containeur-2 de tooltip-container-2 + tooltiptext-container-2 */
-.tooltip-container-2 {
+/* .tooltip-container-2 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-2 .tooltiptext-container-2 {
@@ -125,15 +126,14 @@ visibility: visible;
   .tooltip-container-2:hover .tooltiptext-container-2 {
     position: relative;
   visibility: visible;
-  }
+  } */
   /* fin tootip pour le containeur-2 de tooltip-containeur-2 + tooltiptext-container-2 */
   
 
   
  /* tooltip pour le containeur-3 de tooltip-container-3 + tooltiptext-container-3 */
-.tooltip-container-3 {
+/* .tooltip-container-3 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-3 .tooltiptext-container-3 {
@@ -168,16 +168,15 @@ visibility: visible;
   .tooltip-container-3:hover .tooltiptext-container-3 {
     position: relative;
   visibility: visible;
-  }
+  } */
   /* fin tootip pour le containeur-2 de tooltip-containeur-2 + tooltiptext-container-2 */
   
 
 
 
 /* tooltip pour le containeur-4 de tooltip-container-4 + tooltiptext-container-4 */
-.tooltip-container-4 {
+/*.tooltip-container-4 {
 display: inline-block;
-/* border-bottom: 1px dotted black; */
 }
 
 .tooltip-container-4 .tooltiptext-container-4 {
@@ -212,16 +211,15 @@ border-color: transparent transparent rgb(143, 1, 1) transparent;
 .tooltip-container-4:hover .tooltiptext-container-4 {
   position: relative;
 visibility: visible;
-}
+} */
 /* fin tootip pour le containeur-4 de tooltip-containeur-4 + tooltiptext-container-4 */
 
 
 
    
  /* tooltip pour le containeur-5 de tooltip-container-5 + tooltiptext-container-5 */
-.tooltip-container-5 {
+/* .tooltip-container-5 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-5 .tooltiptext-container-5 {
@@ -256,15 +254,14 @@ visibility: visible;
   .tooltip-container-5:hover .tooltiptext-container-5 {
     position: relative;
   visibility: visible;
-  }
+  } */
   /* fin tootip pour le containeur-5 de tooltip-containeur-5 + tooltiptext-container-5 */
   
   
   
  /* tooltip pour le containeur-6 de tooltip-container-6 + tooltiptext-container-6 */
-.tooltip-container-6 {
+/* .tooltip-container-6 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-6 .tooltiptext-container-6 {
@@ -300,15 +297,14 @@ visibility: visible;
   .tooltip-container-6:hover .tooltiptext-container-6 {
     position: relative;
   visibility: visible;
-  }
+  } */
   /* fin tootip pour le containeur-6 de tooltip-containeur-6 + tooltiptext-container-6 */
   
   
   
  /* tooltip pour le containeur-7 de tooltip-container-7 + tooltiptext-container-7 */
-.tooltip-container-7 {
-  display: inline-block;
-  /* border-bottom: 1px dotted black; */
+/*.tooltip-container-7 {
+  display: inline-block; 
   }
   
   .tooltip-container-7 .tooltiptext-container-7 {
@@ -343,14 +339,13 @@ visibility: visible;
   .tooltip-container-7:hover .tooltiptext-container-7 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tootip pour le containeur-7 de tooltip-containeur-7 + tooltiptext-container-7 */   
 
 
   /* tooltip pour le containeur-8 de tooltip-container-8 + tooltiptext-container-8 */
-.tooltip-container-8 {
+/*.tooltip-container-8 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-8 .tooltiptext-container-8 {
@@ -385,15 +380,14 @@ visibility: visible;
   .tooltip-container-8:hover .tooltiptext-container-8 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tootip pour le containeur-8 de tooltip-containeur-8 + tooltiptext-container-8 */
 
 
 
   /* tooltip pour le containeur-9 de tooltip-container-9 + tooltiptext-container-9 */
-.tooltip-container-9 {
+/*.tooltip-container-9 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-9 .tooltiptext-container-9 {
@@ -428,14 +422,13 @@ visibility: visible;
   .tooltip-container-9:hover .tooltiptext-container-9 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tootip pour le containeur-9 de tooltip-containeur-9 + tooltiptext-container-9 */
 
 
   /* tooltip pour le containeur-10 de tooltip-container-10 + tooltiptext-container-10 */
-.tooltip-container-10 {
+/*.tooltip-container-10 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-10 .tooltiptext-container-10 {
@@ -470,14 +463,13 @@ visibility: visible;
   .tooltip-container-10:hover .tooltiptext-container-10 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tootip pour le containeur-10 de tooltip-containeur-10 + tooltiptext-container-10 */
 
 
   /* tooltip pour le containeur-11 de tooltip-container-11 + tooltiptext-container-11 */
-.tooltip-container-11 {
+/*.tooltip-container-11 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-11 .tooltiptext-container-11 {
@@ -512,14 +504,13 @@ visibility: visible;
   .tooltip-container-11:hover .tooltiptext-container-11 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tootip pour le containeur-11 de tooltip-containeur-11 + tooltiptext-container-11 */
 
 
   /* tooltip pour le containeur-12 de tooltip-container-12 + tooltiptext-container-12 */
-.tooltip-container-12 {
+/*.tooltip-container-12 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   .tooltip-container-12 .tooltiptext-container-12 {
@@ -554,16 +545,15 @@ visibility: visible;
   .tooltip-container-12:hover .tooltiptext-container-12 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tootip pour le containeur-12 de tooltip-containeur-12 + tooltiptext-container-12 */
 
 
 @media screen and (max-width: 1000px) {
 
 /* tooltip pour container-1 class tooltip-container-1 + tooltiptext-container-1 */
-#tooltip-container-1 {
+/* #tooltip-container-1 {
 display: inline-block;
-/* border-bottom: 1px dotted black; */
 }
 
 #tooltip-container-1 #tooltiptext-container-1 {
@@ -598,15 +588,14 @@ border-color: transparent transparent rgb(143, 1, 1) transparent;
 #tooltip-container-1:hover #tooltiptext-container-1 {
   position: relative;
 visibility: visible;
-}
+} */
 /* fin tooltip pour container-1 class tooltip-container-1 + tooltiptext-container-1 */
 
 
 
 /* tooltip pour container-2 class tooltip-container-2 + tooltiptext-container-2 */
-#tooltip-container-2 {
+/* #tooltip-container-2 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-2 #tooltiptext-container-2 {
@@ -641,14 +630,13 @@ visibility: visible;
   #tooltip-container-2:hover #tooltiptext-container-2 {
     position: relative;
   visibility: visible;
-  }
+  } */
   /* fin tooltip pour container-2 class tooltip-container-2 + tooltiptext-container-2 */
   
   
  /* tooltip pour container-3 class tooltip-container-3 + tooltiptext-container-3 */
-#tooltip-container-3 {
+/* #tooltip-container-3 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-3 #tooltiptext-container-3 {
@@ -683,14 +671,13 @@ visibility: visible;
   #tooltip-container-3:hover #tooltiptext-container-3 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-3 class tooltip-container-3 + tooltiptext-container-3 */
   
   
  /* tooltip pour container-4 class tooltip-container-4 + tooltiptext-container-4 */
-#tooltip-container-4 {
+/* #tooltip-container-4 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-4 #tooltiptext-container-4 {
@@ -725,14 +712,13 @@ visibility: visible;
   #tooltip-container-4:hover #tooltiptext-container-4 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-4 class tooltip-container-4 + tooltiptext-container-4 */
   
   
  /* tooltip pour container-5 class tooltip-container-5 + tooltiptext-container-5 */
-#tooltip-container-5 {
+/* #tooltip-container-5 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-5 #tooltiptext-container-5 {
@@ -767,14 +753,13 @@ visibility: visible;
   #tooltip-container-5:hover #tooltiptext-container-5 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-5 class tooltip-container-5 + tooltiptext-container-5 */
   
   
  /* tooltip pour container-6 class tooltip-container-6 + tooltiptext-container-6 */
-#tooltip-container-6 {
+/* #tooltip-container-6 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-6 #tooltiptext-container-6 {
@@ -809,14 +794,13 @@ visibility: visible;
   #tooltip-container-6:hover #tooltiptext-container-6 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-6 class tooltip-container-6 + tooltiptext-container-6 */
   
   
  /* tooltip pour container-7 class tooltip-container-7 + tooltiptext-container-7 */
-#tooltip-container-7 {
+/*#tooltip-container-7 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-7 #tooltiptext-container-7 {
@@ -851,14 +835,13 @@ visibility: visible;
   #tooltip-container-7:hover #tooltiptext-container-7 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-7 class tooltip-container-7 + tooltiptext-container-7 */
   
   
 /* tooltip pour container-8 class tooltip-container-8 + tooltiptext-container-8 */
-#tooltip-container-8 {
+/*#tooltip-container-8 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-8 #tooltiptext-container-8 {
@@ -893,14 +876,13 @@ visibility: visible;
   #tooltip-container-8:hover #tooltiptext-container-8 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-8 class tooltip-container-8 + tooltiptext-container-8 */
   
   
  /* tooltip pour container-9 class tooltip-container-9 + tooltiptext-container-9 */
-#tooltip-container-9 {
+/*#tooltip-container-9 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-9 #tooltiptext-container-9 {
@@ -935,14 +917,13 @@ visibility: visible;
   #tooltip-container-9:hover #tooltiptext-container-9 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-9 class tooltip-container-9 + tooltiptext-container-9 */
   
   
 /* tooltip pour container-10 class tooltip-container-10 + tooltiptext-container-10 */
-#tooltip-container-10 {
+/*#tooltip-container-10 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-10 #tooltiptext-container-10 {
@@ -977,14 +958,13 @@ visibility: visible;
   #tooltip-container-10:hover #tooltiptext-container-10 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-10 class tooltip-container-10 + tooltiptext-container-10 */
   
   
  /* tooltip pour container-11 class tooltip-container-11 + tooltiptext-container-11 */
-#tooltip-container-11 {
+/*#tooltip-container-11 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-11 #tooltiptext-container-11 {
@@ -1019,14 +999,13 @@ visibility: visible;
   #tooltip-container-11:hover #tooltiptext-container-11 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-11 class tooltip-container-11 + tooltiptext-container-11 */
   
   
  /* tooltip pour container-12 class tooltip-container-12 + tooltiptext-container-12 */
-#tooltip-container-12 {
+/*#tooltip-container-12 {
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
   }
   
   #tooltip-container-12 #tooltiptext-container-12 {
@@ -1061,7 +1040,7 @@ visibility: visible;
   #tooltip-container-12:hover #tooltiptext-container-12 {
     position: relative;
   visibility: visible;
-  }
+  }*/
   /* fin tooltip pour container-12 class tooltip-container-12 + tooltiptext-container-12 */
   
   
