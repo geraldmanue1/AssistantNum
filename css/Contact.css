@@ -310,7 +310,7 @@ a:hover, a:visited, a:link, a:active {
     max-width: 100%;
   }
 
-     /* #nom {
+      #nom {
           padding-right: 228px;
           
       }
@@ -322,7 +322,7 @@ a:hover, a:visited, a:link, a:active {
       #prenom label {
           padding-right: 430px;
            
-         } */
+         } 
 
          #text-email label {
           padding-right: 443px;  
