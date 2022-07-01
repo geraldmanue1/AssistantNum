@@ -311,13 +311,12 @@ a:hover, a:visited, a:link, a:active {
     max-width: 100%;
   }
 
-      #nom {
-          padding-right: 228px;
+    /*#nom {
+          padding-right: 28px;
           
-      }
+      }*/
       #nom label {
-       padding-right: 235px;
-        
+       padding-right: 470px;
       }
 
       #prenom label {
