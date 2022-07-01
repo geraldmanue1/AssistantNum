@@ -492,7 +492,7 @@
       margin-right: 50px;
       height: 100px;
       /* color: #ffffff; */
-      font-family: Helvetica, serif;
+      /* font-family: Helvetica, serif; */
       font-weight: 100;
       /* --fill-layer-background-media-position: fixed; */
       /* background-image: url(../images/reseaux-sociaux-2-1920x832.jpeg), url(/images/reseaux-sociaux-2-1920x832.jpeg); */
@@ -505,6 +505,7 @@
       /* width: 100%; */
       max-width: 100%;
 }
+
 .porfolio-devellopeur-web a:hover{
       background:none;
       text-shadow: none;
