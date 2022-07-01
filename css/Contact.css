@@ -315,25 +315,25 @@ a:hover, a:visited, a:link, a:active {
           
       }
       #nom label {
-       padding-right: 455px;
+       padding-right: 465px;
         
       }
 
       #prenom label {
-          padding-right: 430px;
+          padding-right: 442.79px;
            
          } 
 
          #text-email label {
-          padding-right: 443px;  
+          padding-right: 457.24px;  
          }
 
          #text-sujet label {
-          padding-right: 460px;  
+          padding-right: 600px;  
          }
 
          #text-message label {
-          padding-right: 430px;  
+          padding-right: 500px;  
          }
 
     
@@ -359,10 +359,15 @@ a:hover, a:visited, a:link, a:active {
         }
         
          #flex-contact-map > div {
-          flex-direction: column;
-          justify-content: center;
-          padding-top: 30px;
-          width: 100%;
+           background-color: #f1f1f1;
+           margin: 10px;
+          /* padding-left: 1000px; */
+          /* margin-left: 100px; */
+          padding: 80px;
+          font-size: 30px;
+          width: 49.2%;
+          padding-left: 80px;
+          padding-right: 100px;
          
         }
 
