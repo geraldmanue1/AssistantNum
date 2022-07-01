@@ -253,7 +253,7 @@ max-width: 100%;
   padding-left: 100px;
   margin-left: 20px;
   margin-right: 20px;
-  padding-right: 100px;
+ /* padding-right: 100px;*/
   
 }
 
@@ -315,27 +315,25 @@ a:hover, a:visited, a:link, a:active {
           padding-right: 28px;
           
       }*/
-      #nom label {
-       padding-right: 47px;
+           #nom label {
+       padding-right: 490px;
       }
 
       #prenom label {
-          padding-right: 440px;
-           
+          padding-right: 465px;
          } 
 
          #text-email label {
-          padding-right: 463px;  
+          padding-right: 478px;
          }
 
          #text-sujet label {
-          padding-right: 700px;  
+          padding-right: 700px;
          }
 
          #text-message label {
           padding-right: 500px;  
          }
-
     
 
        /*  input[id="emails"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
