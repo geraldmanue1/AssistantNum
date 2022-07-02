@@ -321,16 +321,17 @@ a:hover, a:visited, a:link, a:active {
            
          } */
 
-           #nom label {
-          padding-right: 460px;
+            #nom label {
+          text-align: left;
+          padding-right: 428px;
          }
  
          #prenom label {
-             padding-right: 438px;
+             padding-right: 405px;
               
             }
          #text-email label {
-          padding-right: 450px;  
+          padding-right: 420px;  
          }
 
          #text-sujet label {
@@ -338,9 +339,8 @@ a:hover, a:visited, a:link, a:active {
          }
 
          #text-message label {
-          padding-right: 438px;  
+          padding-right: 410px;  
          }
-
 
     
 
