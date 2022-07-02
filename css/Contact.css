@@ -52,7 +52,7 @@ input {
 
 /* aggrandir marge email, sujet, message placeholder */
 input[id="Prenom"], input[id="Nom"], input[id="email"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
-  width: 550px;
+  width: 435px;
 }
 /* fin aggrandir marge email, sujet, message placeholder */
 
@@ -115,29 +115,25 @@ input:hover, textarea:hover {
 }
 
 .btn {
-    display: inline-block;
-    /* padding: 6px 12px; */
-    padding-bottom: 30px;
-    padding-top: 12px;
-    padding-left: 60px;
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 /* fin boutton Message sur codepen */
@@ -253,7 +249,7 @@ max-width: 100%;
   padding-left: 100px;
   margin-left: 20px;
   margin-right: 20px;
- /* padding-right: 100px;*/
+  padding-right: 100px;
   
 }
 
@@ -262,11 +258,11 @@ max-width: 100%;
   margin: 10px;
   margin-right: 0px;
   margin-left: 0px;
-  padding: 80px;
+  padding: 20px;
   font-size: 30px;
   width: 49.2%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
   
 }
 
@@ -311,29 +307,40 @@ a:hover, a:visited, a:link, a:active {
     max-width: 100%;
   }
 
-    /*#nom {
-          padding-right: 28px;
+     /* #nom {
+          padding-right: 228px;
           
-      }*/
-           #nom label {
-       padding-right: 490px;
+      }
+      #nom label {
+       padding-right: 160px;
+        
       }
 
       #prenom label {
-          padding-right: 465px;
-         } 
+          padding-right: 138px;
+           
+         } */
 
+         #nom label {
+          padding-right: 457px;
+         }
+ 
+         #prenom label {
+             padding-right: 438px;
+            }
          #text-email label {
-          padding-right: 478px;
+          padding-right: 448px;
          }
 
          #text-sujet label {
-          padding-right: 495px;
+          padding-right: 465px;
          }
 
          #text-message label {
-          padding-right: 460px;  
+          padding-right: 435px;
          }
+
+
     
 
        /*  input[id="emails"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
@@ -341,7 +348,7 @@ a:hover, a:visited, a:link, a:active {
         } */
 
         input[id="Prenom"], input[id="Nom"], input[id="email"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
-          width: 550px;
+          width: 450px;
         } 
   
        #flex-contact-map {
@@ -351,21 +358,16 @@ a:hover, a:visited, a:link, a:active {
           margin-right: 40px;
           justify-content: center;
           text-align: center;
-          margin-top: -5px;
+          margin-top: 50px;
 
 
         }
         
          #flex-contact-map > div {
-           background-color: #f1f1f1;
-           margin: 10px;
-           /* padding-left: 1000px; */
-           /* margin-left: 100px; */
-           padding: 80px;
-           font-size: 30px;
-           width: 98.2%;
-           padding-left: 80px;
-           padding-right: 100px;
+          flex-direction: column;
+          justify-content: center;
+          padding-top: 30px;
+          width: 100%;
          
         }
 
@@ -395,7 +397,7 @@ a:hover, a:visited, a:link, a:active {
           margin-bottom: 0px;
           margin-top: 10px;
           text-align: center;
-          width: 806px;
+
         }
 
         #text-contact {
