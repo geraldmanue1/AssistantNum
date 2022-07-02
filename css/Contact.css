@@ -321,26 +321,26 @@ a:hover, a:visited, a:link, a:active {
            
          } */
 
-         #nom label {
-          padding-right: 388px;
-           
+           #nom label {
+          padding-right: 460px;
          }
  
          #prenom label {
-             padding-right: 368px;
+             padding-right: 438px;
               
             }
          #text-email label {
-          padding-right: 378px;  
+          padding-right: 450px;  
          }
 
          #text-sujet label {
-          padding-right: 393px;  
+          padding-right: 470px;  
          }
 
          #text-message label {
-          padding-right: 370px;  
+          padding-right: 438px;  
          }
+
 
     
 
