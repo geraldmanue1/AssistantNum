@@ -116,7 +116,7 @@ input:hover, textarea:hover {
 
 .btn {
   display: inline-block;
-  padding: 6px 60px;
+  padding: 6px 65px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
@@ -321,7 +321,7 @@ a:hover, a:visited, a:link, a:active {
            
          } */
 
-           #nom label {
+               #nom label {
           text-align: left;
           padding-right: 430px;
          }
@@ -330,15 +330,15 @@ a:hover, a:visited, a:link, a:active {
              padding-right: 407px;
             }
          #text-email label {
-          padding-right: 422px;  
+          padding-right: 416px;  
          }
 
          #text-sujet label {
-          padding-right: 470px;  
+          padding-right: 438px;  
          }
 
          #text-message label {
-          padding-right: 410px;  
+          padding-right: 405px;  
          }
   
        /*  input[id="emails"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
