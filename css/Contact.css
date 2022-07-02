@@ -340,7 +340,8 @@ a:hover, a:visited, a:link, a:active {
          #text-message label {
           padding-right: 403px;  
          }
-  
+          #nom, #prenom, #text-email, #text-sujet, #text-message {font-size: 20px;}
+
        /*  input[id="emails"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
           width: 450px;
         } */
