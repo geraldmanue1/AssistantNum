@@ -321,6 +321,7 @@ a:hover, a:visited, a:link, a:active {
            
          } */
 
+            
                #nom label {
           text-align: left;
           padding-right: 430px;
@@ -330,7 +331,7 @@ a:hover, a:visited, a:link, a:active {
              padding-right: 407px;
             }
          #text-email label {
-          padding-right: 416px;  
+          padding-right: 415px;  
          }
 
          #text-sujet label {
@@ -338,7 +339,7 @@ a:hover, a:visited, a:link, a:active {
          }
 
          #text-message label {
-          padding-right: 403px;  
+          padding-right: 400px;  
          }
           #nom, #prenom, #text-email, #text-sujet, #text-message {font-size: 20px;}
 
