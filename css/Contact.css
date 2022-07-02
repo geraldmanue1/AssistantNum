@@ -321,17 +321,16 @@ a:hover, a:visited, a:link, a:active {
            
          } */
 
-            #nom label {
+           #nom label {
           text-align: left;
-          padding-right: 428px;
+          padding-right: 430px;
          }
  
          #prenom label {
-             padding-right: 405px;
-              
+             padding-right: 407px;
             }
          #text-email label {
-          padding-right: 420px;  
+          padding-right: 422px;  
          }
 
          #text-sujet label {
@@ -341,9 +340,7 @@ a:hover, a:visited, a:link, a:active {
          #text-message label {
           padding-right: 410px;  
          }
-
-    
-
+  
        /*  input[id="emails"], input[id="sujet"], textarea[id="message"], button[id="submit"]{
           width: 450px;
         } */
